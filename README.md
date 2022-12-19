@@ -1,2 +1,3 @@
-# findhouse
-It's a react nextjs template
+# SQFT LIFE
+
+It's a react nextjs website

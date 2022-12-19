@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import HeaderMenuContent from "./HeaderMenuContent";
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import HeaderMenuContent from './HeaderMenuContent';
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -14,13 +14,13 @@ const Header = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeBackground);
+    window.addEventListener('scroll', changeBackground);
   }, []);
 
   return (
     <header
       className={`header-nav menu_style_home_one style2 navbar-scrolltofixed stricky main-menu  ${
-        navbar ? "stricky-fixed " : ""
+        navbar ? 'stricky-fixed ' : ''
       }`}
     >
       <div className="container-fluid p0">
@@ -37,7 +37,7 @@ const Header = () => {
               src="/assets/images/header-logo2.png"
               alt="header-logo2.png"
             />
-            <span>FindHouse</span>
+            <span>SqftLife</span>
           </a>
         </Link>
         {/* site logo brand */}
