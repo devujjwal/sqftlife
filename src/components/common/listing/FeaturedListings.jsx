@@ -1,12 +1,12 @@
-import Link from "next/link";
-import featureContent from "../../../data/properties";
+import Link from 'next/link';
+import featureContent from '../../../data/properties';
 
 const FeaturedListings = () => {
   return (
     <>
       {featureContent.slice(27, 30).map((item) => (
         <div className="media d-flex" key={item.id}>
-          <Link href={`/listing-details-v1/${item.id}`}>
+          <Link href={`/listing-details/${item.id}`}>
             <a>
               <img
                 className="align-self-start me-3"
@@ -18,13 +18,13 @@ const FeaturedListings = () => {
 
           <div className="media-body">
             <h5 className="mt-0 post_title">
-              <Link href={`/listing-details-v1/${item.id}`}>
+              <Link href={`/listing-details/${item.id}`}>
                 <a>{item.title}</a>
               </Link>
             </h5>
-            <Link href={`/listing-details-v1/${item.id}`}>
+            <Link href={`/listing-details/${item.id}`}>
               <a>
-                {" "}
+                {' '}
                 ${item.price}/<small>/mo</small>
               </a>
             </Link>

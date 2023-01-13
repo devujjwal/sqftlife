@@ -24,7 +24,7 @@ const FloorPlans = () => {
                   <p>Baths:</p> <span>530 Sqft</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Price:</p> <span>$1489</span>
+                  <p>Price:</p> <span>₹1489</span>
                 </li>
               </ul>
             </button>
@@ -75,7 +75,7 @@ const FloorPlans = () => {
                   <p>Baths:</p> <span>530 Sqft</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Price:</p> <span>$1489</span>
+                  <p>Price:</p> <span>₹1489</span>
                 </li>
               </ul>
             </button>

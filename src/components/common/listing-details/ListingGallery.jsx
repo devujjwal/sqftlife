@@ -1,6 +1,6 @@
-import { Gallery, Item } from "react-photoswipe-gallery";
-import "photoswipe/dist/photoswipe.css";
-import propertiesContent from "../../../data/properties";
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import 'photoswipe/dist/photoswipe.css';
+import propertiesContent from '../../../data/properties';
 
 const ListingGallery = () => {
   return (
@@ -18,10 +18,7 @@ const ListingGallery = () => {
               <div className="col-lg-5 col-xl-4">
                 <div className="single_property_social_share position-static transform-none">
                   <div className="price float-start fn-400">
-                    <h2>
-                      ${singleItem.price}
-                      <small>/mo</small>
-                    </h2>
+                    <h2>₹{singleItem.price}</h2>
                   </div>
 
                   <div className="spss style2 mt20 text-end tal-400">

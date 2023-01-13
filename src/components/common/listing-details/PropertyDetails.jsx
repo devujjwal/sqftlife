@@ -10,7 +10,7 @@ const PropertyDetails = () => {
           </li>
           <li>
             <p>
-              Price : <span>$130,000</span>
+              Price : <span>₹130,000</span>
             </p>
           </li>
           <li>

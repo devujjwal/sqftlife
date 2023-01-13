@@ -58,7 +58,7 @@ const MobileMenuContent = () => {
                   route.pathname === '/listing' ? 'ui-active' : undefined
                 }
               >
-                Listings
+                Listing
               </a>
             </Link>
           </MenuItem>

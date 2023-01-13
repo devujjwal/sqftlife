@@ -1,8 +1,6 @@
 /* 
 Ace Responsive Menu Plugin
 Version: 1.0
-Author: Samson Onna
-E-mail: samson3d@gmail.com
 ----------------------------------------*/
 /* Import Fonts
 ----------------------------------------*/
@@ -76,14 +74,14 @@ ul {
   font-size: 16px;
   font-family: FontAwesome;
   height: auto;
-  content: "\f107";
+  content: '\f107';
   font-weight: 300;
   text-shadow: none;
   width: 10px;
   display: inline-block;
 }
 .ace-responsive-menu li ul.sub-menu li > a > .arrow:before {
-  content: "\f105" !important;
+  content: '\f105' !important;
 }
 .dropitem.arrow > a {
   position: relative;
@@ -154,7 +152,7 @@ ul {
   font-size: 16px;
   font-family: FontAwesome;
   height: auto;
-  content: "\f104";
+  content: '\f104';
   font-weight: 300;
   text-shadow: none;
 }
@@ -211,10 +209,10 @@ ul {
 
 /* Accordion Menu Styles
 ----------------------------------------*/
-ul[data-menu-style="accordion"] {
+ul[data-menu-style='accordion'] {
   width: 250px;
 }
-ul[data-menu-style="accordion"] > li {
+ul[data-menu-style='accordion'] > li {
   display: block;
   margin: 0;
   padding: 0;
@@ -224,85 +222,97 @@ ul[data-menu-style="accordion"] > li {
 ul[data-menu-style="accordion"] > li:first-child {
   border-top: 2px solid #FD5025;
 }*/
-ul[data-menu-style="accordion"] li ul.sub-menu > li {
+ul[data-menu-style='accordion'] li ul.sub-menu > li {
   width: 100%;
 }
-ul[data-menu-style="accordion"] > li > a > .arrow:before {
+ul[data-menu-style='accordion'] > li > a > .arrow:before {
   float: right;
-  content: "\f105";
+  content: '\f105';
 }
-ul[data-menu-style="accordion"] li.menu-active > a > .arrow:before {
-  content: "\f107" !important;
+ul[data-menu-style='accordion'] li.menu-active > a > .arrow:before {
+  content: '\f107' !important;
 }
-ul[data-menu-style="accordion"] > li > ul.sub-menu {
+ul[data-menu-style='accordion'] > li > ul.sub-menu {
   position: static;
 }
-ul[data-menu-style="accordion"] > li > a i {
+ul[data-menu-style='accordion'] > li > a i {
   padding-right: 10px;
   color: #ff5737;
 }
-ul[data-menu-style="accordion"] > li > ul.sub-menu > li ul.sub-menu {
+ul[data-menu-style='accordion'] > li > ul.sub-menu > li ul.sub-menu {
   position: static;
 }
-ul[data-menu-style="accordion"] > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+ul[data-menu-style='accordion']
+  > li
+  > ul.sub-menu
+  > li
+  ul.sub-menu
+  > li
+  ul.sub-menu {
   position: static;
 }
-ul[data-menu-style="accordion"] > li {
+ul[data-menu-style='accordion'] > li {
   border-bottom: 1px solid #242424;
 }
-ul[data-menu-style="accordion"] li a:hover {
+ul[data-menu-style='accordion'] li a:hover {
   background: #272727 !important;
 }
-ul[data-menu-style="accordion"] ul.sub-menu li.menu-active > a > .arrow:before {
-  content: "\f107" !important;
+ul[data-menu-style='accordion'] ul.sub-menu li.menu-active > a > .arrow:before {
+  content: '\f107' !important;
 }
 
 /* Vertical Menu Styles
 ----------------------------------------*/
 
-ul[data-menu-style="vertical"] {
+ul[data-menu-style='vertical'] {
   width: 200px;
 }
-ul[data-menu-style="vertical"] > li {
+ul[data-menu-style='vertical'] > li {
   float: none;
 } /*
 ul[data-menu-style="vertical"] > li:first-child {
   border-top: 2px solid #FD5025;
 }*/
-ul[data-menu-style="vertical"] li ul.sub-menu > li {
+ul[data-menu-style='vertical'] li ul.sub-menu > li {
   width: 100%;
 }
-ul[data-menu-style="vertical"] > li > a > .arrow:before {
+ul[data-menu-style='vertical'] > li > a > .arrow:before {
   float: right;
-  content: "\f105";
+  content: '\f105';
 }
-ul[data-menu-style="vertical"] > li.menu-active {
+ul[data-menu-style='vertical'] > li.menu-active {
   position: relative;
 }
-ul[data-menu-style="vertical"] > li > ul.sub-menu {
+ul[data-menu-style='vertical'] > li > ul.sub-menu {
   position: absolute;
   left: 200px;
   top: 0px;
   width: 200px;
 }
-ul[data-menu-style="vertical"] > li > a i {
+ul[data-menu-style='vertical'] > li > a i {
   padding-right: 10px;
   color: #ff5737;
 }
-ul[data-menu-style="vertical"] > li > ul.sub-menu > li ul.sub-menu {
+ul[data-menu-style='vertical'] > li > ul.sub-menu > li ul.sub-menu {
   position: absolute;
   width: 200px;
   left: 200px;
 }
-ul[data-menu-style="vertical"] > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+ul[data-menu-style='vertical']
+  > li
+  > ul.sub-menu
+  > li
+  ul.sub-menu
+  > li
+  ul.sub-menu {
   position: absolute;
   width: 200px;
   left: 200px;
 }
-ul[data-menu-style="vertical"] > li {
+ul[data-menu-style='vertical'] > li {
   border-bottom: 1px solid #242424;
 }
-ul[data-menu-style="vertical"] li a:hover {
+ul[data-menu-style='vertical'] li a:hover {
   background: #272727 !important;
 }
 /* Responsive Menu Styles
@@ -313,9 +323,9 @@ ul[data-menu-style="vertical"] li a:hover {
     width: 96%;
     padding: 2%;
   }
-  ul[data-menu-style="vertical"],
-  ul[data-menu-style="accordion"],
-  ul[data-menu-style="vertical"] li ul.sub-menu {
+  ul[data-menu-style='vertical'],
+  ul[data-menu-style='accordion'],
+  ul[data-menu-style='vertical'] li ul.sub-menu {
     width: 100% !important;
   }
   .ace-responsive-menu {
@@ -337,10 +347,10 @@ ul[data-menu-style="vertical"] li a:hover {
   }
   .ace-responsive-menu > li > a > .arrow:before {
     float: right;
-    content: "\f105";
+    content: '\f105';
   }
   li.menu-active > a > .arrow:before {
-    content: "\f107" !important;
+    content: '\f107' !important;
   }
   .ace-responsive-menu li ul.sub-menu > li {
     width: 100%;
@@ -361,7 +371,7 @@ ul[data-menu-style="vertical"] li a:hover {
     position: static;
   }
   .ace-responsive-menu li ul.sub-menu li.menu-active > a > .arrow:before {
-    content: "\f107" !important;
+    content: '\f107' !important;
   }
 }
 .options {

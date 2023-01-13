@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { isSinglePageActive } from "../../../../utils/daynamicNavigation";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { isSinglePageActive } from '../../../../utils/daynamicNavigation';
 
 const MyAccount = () => {
   const route = useRouter();
@@ -13,8 +13,8 @@ const MyAccount = () => {
           alt="e1.png"
         />
         <p>
-          Ali Tufan <br />
-          <span className="address">alitufan@gmail.com</span>
+          Admin <br />
+          <span className="address">info@sqftlife.com</span>
         </p>
       </div>
       {/* End user_set_header */}
@@ -24,8 +24,8 @@ const MyAccount = () => {
           <a
             className="dropdown-item"
             style={
-              isSinglePageActive("/my-profile", route.pathname)
-                ? { color: "#ff5a5f" }
+              isSinglePageActive('/my-profile', route.pathname)
+                ? { color: '#ff5a5f' }
                 : undefined
             }
           >
@@ -36,8 +36,8 @@ const MyAccount = () => {
           <a
             className="dropdown-item "
             style={
-              isSinglePageActive("/my-message", route.pathname)
-                ? { color: "#ff5a5f" }
+              isSinglePageActive('/my-message', route.pathname)
+                ? { color: '#ff5a5f' }
                 : undefined
             }
           >
@@ -48,37 +48,12 @@ const MyAccount = () => {
           <a
             className="dropdown-item "
             style={
-              isSinglePageActive("/my-favourite", route.pathname)
-                ? { color: "#ff5a5f" }
+              isSinglePageActive('/my-favourite', route.pathname)
+                ? { color: '#ff5a5f' }
                 : undefined
             }
           >
             My Favourite
-          </a>
-        </Link>
-        <Link href="/my-package">
-          <a
-            className="dropdown-item "
-            style={
-              isSinglePageActive("/my-package", route.pathname)
-                ? { color: "#ff5a5f" }
-                : undefined
-            }
-          >
-            My Package
-          </a>
-        </Link>
-        <Link href="/login">
-          <a
-            className="dropdown-item "
-            style={
-              isSinglePageActive("/login", route.pathname)
-                ? { color: "#ff5a5f" }
-                : undefined
-            }
-          >
-            {" "}
-            Log out
           </a>
         </Link>
       </div>

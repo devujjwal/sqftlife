@@ -1,25 +1,22 @@
-const WhyChoose = ({ style = "" }) => {
+const WhyChoose = ({ style = '' }) => {
   const whyCooseContent = [
     {
       id: 1,
-      icon: "flaticon-high-five",
-      title: "Trusted By Thousands",
-      descriptions: `Aliquam dictum elit vitae mauris facilisis at dictum urna
-      dignissim donec vel lectus vel felis.`,
+      icon: 'flaticon-high-five',
+      title: 'Direct Sellers',
+      descriptions: `No middlemen. Find homes without paying a dime in commission to agents or brokers.`,
     },
     {
       id: 2,
-      icon: "flaticon-home-1",
-      title: "Wide Renge Of Properties",
-      descriptions: `Aliquam dictum elit vitae mauris facilisis at dictum urna
-      dignissim donec vel lectus vel felis.`,
+      icon: 'flaticon-profit',
+      title: 'Buy, Rent or Sell',
+      descriptions: `Thousands of houses and apartments in your favourite cities`,
     },
     {
       id: 3,
-      icon: "flaticon-profit",
-      title: "Financing Made Easy",
-      descriptions: `Aliquam dictum elit vitae mauris facilisis at dictum urna
-      dignissim donec vel lectus vel felis.`,
+      icon: 'flaticon-home-1',
+      title: 'Verified Properties',
+      descriptions: `We get you the best and exclusively verified properties.`,
     },
   ];
 

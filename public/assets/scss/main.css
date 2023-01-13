@@ -5082,8 +5082,8 @@ form.home5_advanced_search_form
 .home-four .banner-style-one .slide:before {
   background-image: linear-gradient(
     to right,
-    rgba(0, 255, 255) 0%,
-    rgba(62, 76, 102) 100%
+    rgb(191 201 36) 0%,
+    rgb(28 28 17) 100%
   );
   left: 0;
   opacity: 0.902;
@@ -6997,7 +6997,7 @@ form.home5_advanced_search_form
   background: -moz-linear-gradient(
     270deg,
     rgba(255, 255, 255, 0.01) 0%,
-    rgba(29, 41, 62, 1) 100%
+    rgba(115, 116, 88, 1) 100%
   );
   /* ff3.6+ */
   background: -webkit-gradient(
@@ -9968,6 +9968,7 @@ form.home5_advanced_search_form
 .inner_page_breadcrumb {
   background-image: url(../images/background/inner-pagebg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 370px;
   margin-top: 88px;
   position: relative;
@@ -9979,7 +9980,7 @@ form.home5_advanced_search_form
 }
 
 .inner_page_breadcrumb:before {
-  background-color: rgb(29, 41, 62);
+  background-color: rgb(134, 135, 86);
   bottom: 0;
   content: '';
   left: 0;

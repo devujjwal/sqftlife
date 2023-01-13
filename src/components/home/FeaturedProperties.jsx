@@ -65,7 +65,7 @@ const FeaturedProperties = () => {
                     </li>
                   </ul>
 
-                  <Link href={`/listing-details-v1/${item.id}`}>
+                  <Link href={`/listing-details/${item.id}`}>
                     <a className="fp_price">₹{item.price}</a>
                   </Link>
                 </div>
@@ -74,7 +74,7 @@ const FeaturedProperties = () => {
                 <div className="tc_content">
                   <p className="text-thm">{item.type}</p>
                   <h4>
-                    <Link href={`/listing-details-v1/${item.id}`}>
+                    <Link href={`/listing-details/${item.id}`}>
                       <a>{item.title}</a>
                     </Link>
                   </h4>

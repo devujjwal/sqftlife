@@ -1,5 +1,5 @@
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
+import { useState } from 'react';
+import ModalVideo from 'react-modal-video';
 
 const PropertyVideo = () => {
   const [isOpen, setOpen] = useState(false);
@@ -9,7 +9,7 @@ const PropertyVideo = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="oqNZOOWF8qM"
+        videoId="eI_3T1R_M-o"
         onClose={() => setOpen(false)}
       />
       <ul className="nav nav-tabs" id="myTab" role="tablist">

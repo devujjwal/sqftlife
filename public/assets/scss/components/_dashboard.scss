@@ -1,9 +1,11 @@
 .sidebar-menu {
-    .header {
-        display: flex;
-        align-items: center;
-        img {
-            margin-right: 10px;
-        }
+  .header {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 10px;
+      -webkit-filter: brightness(0) invert(1);
+      filter: brightness(0) invert(1);
     }
+  }
 }

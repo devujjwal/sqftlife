@@ -1,10 +1,10 @@
-import { useEffect } from "react";
-import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import {
   addFeatured,
   addStatusType,
-} from "../../../features/filter/filterSlice";
+} from '../../../features/filter/filterSlice';
 
 const FilterTopBar = () => {
   const { length } = useSelector((state) => state.properties);
@@ -26,8 +26,8 @@ const FilterTopBar = () => {
 
   // clear filter
   useEffect(() => {
-    statusType === "" && setStatus("");
-    featured === "" && setFeatured("");
+    statusType === '' && setStatus('');
+    featured === '' && setFeatured('');
   }, [statusType, setStatus, featured, setFeatured]);
 
   return (
@@ -35,13 +35,13 @@ const FilterTopBar = () => {
       <div className="col-sm-12 col-md-4 col-lg-4 col-xl-5">
         <div className="left_area tac-xsd">
           <p>
-            <span className={length === 0 ? "text-danger" : undefined}>
-              {length}{" "}
+            <span className={length === 0 ? 'text-danger' : undefined}>
+              {length}{' '}
             </span>
             {length !== 0 ? (
-              "Search results"
+              'Search results'
             ) : (
-              <span className="text-danger">Not found results</span>
+              <span className="text-danger">No results found</span>
             )}
           </p>
         </div>

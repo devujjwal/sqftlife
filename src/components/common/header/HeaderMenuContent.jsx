@@ -24,7 +24,7 @@ const HeaderMenuContent = ({ float = '' }) => {
           <a
             className={route.pathname === '/listing' ? 'ui-active' : undefined}
           >
-            Listings
+            Listing
           </a>
         </Link>
       </li>
@@ -53,14 +53,11 @@ const HeaderMenuContent = ({ float = '' }) => {
       {/* End .dropitem */}
 
       <li className={`list-inline-item list_s ${float}`}>
-        <a
-          href="#"
-          className="btn flaticon-user"
-          data-bs-toggle="modal"
-          data-bs-target=".bd-example-modal-lg"
-        >
-          <span className="dn-lg">Login/Register</span>
-        </a>
+        <Link href="/login">
+          <a className={route.pathname === '/login' ? 'ui-active' : undefined}>
+            <span className="dn-lg">Login/Register</span>
+          </a>
+        </Link>
       </li>
       {/* End .dropitem */}
 
